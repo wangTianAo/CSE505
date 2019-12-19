@@ -1,36 +1,5 @@
+Run these code with swi prolog on linux or Mac system.
 
-Installation Instructions:
----------------------------
+We recommand to see the project.ipynb to see how the code run.
 
-to compile the sources (will compile both cliquer and plcliquer):
-
-$ make all
-$ make install
-
-this will create a build/ folder that contains everything.
-you can copy it wherever, or put it in your file_search_path
-(see more details in Usage section)
-
-Supported Platforms:
---------------------
-
-This package has been tested and run on 64 bit linux (debian and ubuntu)
-with swi-prolog version 7.x.x. The package should be able to run on
-earlier swi-prolog versions, though this is considered experimental.
-
-If you have success compiling this package on windows (with mingw, msvc 
-or any other way) we would very much like to know about it.
-
-Usage:
-------
-
-After installation, the build folder will be created and contain plcliquer.pl 
-and pl-cliquer.so. In order to use the pl-cliquer package call 
-use_module(plcliquer) and you're good to go.
-
-If you move plcliquer.pl to another directory you need to either move pl-cliquer.so
-with it or modify plcliquer.pl's code to include pl-cliquer.so from another location. 
-
-We suggest you have a file_search_path for cliquer set to pl-cliquer's build
-directory, and then you can simply call use_module(cliquer(plcliquer)) etc..
-an example of how it might be done is included in examples/cfg/dotswiplrc.example 
+If you want to run the code, you can use the google drive link in the report to run the project.ipynb in order.
