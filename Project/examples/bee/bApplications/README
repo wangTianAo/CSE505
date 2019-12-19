@@ -1,0 +1,70 @@
+BEE Applications:
+-----------------
+This folder contains several examples where 
+Prolog is used to generate the BEE model, 
+compile to CNF using BEE, 
+solve using PL-CryptoMinisat
+and verify the correctness of the solution.
+
+First we recommand you look on two simple examples
+located at "1stExamples" folder:
+
+1stExamples/firstExample.pl
+---------------------------
+In this file you will see an example for 
+encoding several constraints on integers
+and decoding integers.
+
+The example show to different approaches
+of using BEE :
+* The direct approach: where your code contains
+  a direct calls to BEE and PL-CryptoMinisat.
+* The framework approach: where you using 
+  BEE auxiliary framework to ease the process
+  and display relevant data.
+
+Read the file contant for more details.
+
+1stExamples/secondExample.pl
+----------------------------
+In this file you will see an example for
+using BEE to solve the problem 
+Number Partitioning (CSPlib Problem 049).
+http://www.cse.unsw.edu.au/~tw/csplib/prob/prob049/
+
+The file also contains the two approaches
+of using BEE.
+
+
+
+The next examples takes the framework approach:
+
+dnaWords/dnaWords.pl
+--------------------
+CSPlib prob033: Word Design for DNA Computing on Surfaces
+http://www.cse.unsw.edu.au/~tw/csplib/prob/prob033/
+
+knightCover/knightCover.pl
+--------------------------
+KNIGHT COVERINGS PROBLEM.
+
+This example show how to find an optimal solution by
+minimizing an integer using BEE framework.
+
+NQueens/nQueens.pl
+------------------
+Place N Queens on NxN board so that 
+no two queens attack each other.
+
+magicLabel/vmtl.pl
+------------------
+Vertex Magic Total Labelings problem
+
+magicLabel/vmtlKn.pl
+--------------------
+Vertex Magic Total Labelings problem
+for Kn graphs.
+
+sudokuNqcp/sudokuNqcp.pl
+------------------------
+Sudoku and Quasigroup Completion Problem

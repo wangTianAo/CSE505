@@ -1,0 +1,10 @@
+Prolog interface for Glucose v2.2 By Amit Metodi
+------------------------------------------------
+It is based on MiniSat v1.14 Prolog interface from the paper: 
+"Logic Programming with Satisfiability";
+Michael Codish, Vitaly Lagoon and Peter Stuckey ;
+Theory and Practice of Logic Programming; 8(1):121-128. 
+
+Usage:
+------
+Please visit: http://amit.metodi.me/research/plsatsolvers

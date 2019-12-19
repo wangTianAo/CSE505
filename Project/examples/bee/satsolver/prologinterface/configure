@@ -1,0 +1,2 @@
+#! /bin/sh
+swipl -dump-runtime-variables | sed s/=\"/=/g | sed s/\"\;//g > SETTINGS 

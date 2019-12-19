@@ -1,0 +1,8 @@
+new_int(X,0,5)
+new_int(Y,0,5)
+int_ge(X,Y)
+int_plus(X,Y,Z)
+new_bool(B)
+bool_eq(B,B2)
+int_gt(X,B)
+solve satisfy
